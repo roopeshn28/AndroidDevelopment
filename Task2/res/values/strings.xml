@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Task2nd</string>
+    <string name="enter_need">Enter need</string>
+    <string name="enter_outcome">Enter outcome</string>
+    <string name="enter_title">Enter title</string>
+    <string name="save">Save</string>
+    <string name="enter_aim">Enter aim</string>
+    <string name="enter_obj">Enter obj</string>
+</resources>
