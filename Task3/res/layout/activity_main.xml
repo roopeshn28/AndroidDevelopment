@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/branch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="branch"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/usn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="usn"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theme" />
+
+    <EditText
+        android:id="@+id/theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="theme"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/phoneno"
+        app:layout_constraintTop_toBottomOf="@+id/phoneno" />
+
+    <EditText
+        android:id="@+id/phoneno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="phoneno"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/organization"
+        app:layout_constraintTop_toBottomOf="@+id/organization" />
+
+    <EditText
+        android:id="@+id/emails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="emails"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/branch"
+        app:layout_constraintTop_toBottomOf="@+id/branch" />
+
+    <EditText
+        android:id="@+id/organization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:ems="10"
+        android:hint="organization"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/names"
+        app:layout_constraintTop_toBottomOf="@+id/names" />
+
+    <EditText
+        android:id="@+id/names"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:ems="10"
+        android:hint="names"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/guidephone"
+        app:layout_constraintTop_toBottomOf="@+id/guidephone" />
+
+    <EditText
+        android:id="@+id/guidephone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:ems="10"
+        android:hint="guidephone"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/guideorg"
+        app:layout_constraintTop_toBottomOf="@+id/guideorg" />
+
+    <EditText
+        android:id="@+id/guideorg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:ems="10"
+        android:hint="guideorg"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/guidename"
+        app:layout_constraintTop_toBottomOf="@+id/guidename" />
+
+    <EditText
+        android:id="@+id/guidename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="guidename"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/guidemail"
+        app:layout_constraintTop_toBottomOf="@+id/guidemail" />
+
+    <EditText
+        android:id="@+id/guidemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:ems="10"
+        android:hint="guidemail"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/emails"
+        app:layout_constraintTop_toBottomOf="@+id/emails" />
+
+    <Button
+        android:id="@+id/showbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="@+id/usn"
+        app:layout_constraintTop_toBottomOf="@+id/usn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
